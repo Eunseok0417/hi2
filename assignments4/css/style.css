@@ -1,0 +1,104 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	background: #58606e;
+}
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+
+
+container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main{
+	font-family: "Dancing Script", cursive;;
+	font-size: 40px;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+span.a1{
+    color: #FF5733;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transform: rotate(-10deg);
+}
+
+span.a2 {
+    color: #FFD700;
+    font-family: "Dancing Script", cursive;
+    font-size: 90px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: rotate(15deg);
+}
+
+span.a3 {
+    color: #42A5F5;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: rotate(-10deg);
+}
+ 
+main2{
+color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+    left: 37%;
+ 
+}
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+
